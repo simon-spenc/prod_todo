@@ -2,6 +2,9 @@ if (Meteor.isClient) {
   Template.hello.greeting = function () {
     return "Welcome to prod.";
   };
+  Template.dude.greeting = function () {
+    return "Hi Butt Munch";
+  };
 
   Template.hello.events({
     'click input' : function () {

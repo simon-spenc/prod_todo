@@ -3,10 +3,21 @@
 </head>
 
 <body>
-  {{> hello}}
+  <div class="container">
+	<div class="row">
+    <div class="span6">{{> hello}}</div>
+    <div class="span6 last">{{> dude}}</div>   
+	</div>
+</div>
+
 </body>
 
 <template name="hello">
+  <h1>Hello World!</h1>
+  {{greeting}}
+  <input type="button" value="Click" />
+</template>
+<template name="dude">
   <h1>Hello World!</h1>
   {{greeting}}
   <input type="button" value="Click" />

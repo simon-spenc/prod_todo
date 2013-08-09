@@ -7,3 +7,6 @@ autopublish
 insecure
 preserve-inputs
 accounts-google
+coffeescript
+handlebars
+bootstrap
